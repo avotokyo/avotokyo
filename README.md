@@ -9,7 +9,6 @@
 ### 👋 Hi there, I'm Benjamin He
 
 [![Developer](https://img.shields.io/badge/developer-%23bae0ff?logo=TypeScript)](https://www.typescriptlang.org/)
-[![Rustacean](https://img.shields.io/badge/rustacean-%23f54900?logo=rust)](https://www.rust-lang.org)
 [![Support Me](https://img.shields.io/liberapay/patrons/bjmhe.svg?logo=liberapay)](https://zh-hans.liberapay.com/bjmhe/)
 [![GitHub followers](https://img.shields.io/github/followers/bjmhe)](https://github/bjmhe)
 
