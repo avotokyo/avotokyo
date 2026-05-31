@@ -1,0 +1,4 @@
+contact_links:
+  - name: ⁉️ 为什么以及如何提供最小复现？
+    url: https://antfu.me/posts/why-reproductions-are-required
+    about: 提供最小复现对于维护者排查和解决你的 issue 非常重要！
