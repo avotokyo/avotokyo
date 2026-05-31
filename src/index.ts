@@ -49,11 +49,6 @@ cli.command("fetch", "Fetch docs from @bjmhe")
   .action(async () => {
     const type = await select({
       message: 'Pick a docs type.',
-      // options: [
-      //   { value: 'fund', label: 'FUNDING.yml' },
-      //   { value: 'issue', label: 'ISSUE_TEMPLATE' },
-      //   { value: 'pull', label: 'PULL_REQUEST_TEMPLATE' },
-      // ],
       options: Object.entries(docsMap).map(([value, item]) => ({
         value,
         label: item.label,
