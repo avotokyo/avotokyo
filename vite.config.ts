@@ -1,5 +1,3 @@
-import { nodeLib } from "./src/index.ts";
+import { nodeLib } from "@bjmhe/viteplus-preset";
 
-export default nodeLib({
-  entry: "shallow",
-});
+export default nodeLib();
