@@ -27,7 +27,9 @@ const docsMap = {
   },
   pull: {
     label: "PULL_REQUEST_TEMPLATE",
-    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/PULL_REQUEST_TEMPLATE.md"],
+    urls: [
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/PULL_REQUEST_TEMPLATE.md",
+    ],
     fileName: ".github",
   },
   coc: {
@@ -40,7 +42,7 @@ const docsMap = {
     urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/LICENSE"],
     fileName: "",
   },
-}
+};
 
 function writeFileEnsuringDir(filePath: string, content: string) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
@@ -50,10 +52,12 @@ function writeFileEnsuringDir(filePath: string, content: string) {
 const cli = cac();
 
 cli.command("").action(async () => {
-  log.info("👋 Hi there, I'm Benjamin He")
-  log.info("Software engineer based in Beijing.")
-  log.info("I'm building web applications and open-source tools, with a focus on Rust and modern frontend.")
-})
+  log.info("👋 Hi there, I'm Benjamin He");
+  log.info("Software engineer based in Beijing.");
+  log.info(
+    "I'm building web applications and open-source tools, with a focus on Rust and modern frontend.",
+  );
+});
 
 async function fetchDocs(type: keyof typeof docsMap) {
   const docs = docsMap[type];
@@ -64,16 +68,22 @@ async function fetchDocs(type: keyof typeof docsMap) {
   }
 }
 
-cli.command("fetch", "Fetch docs from @bjmhe")
-  .option("--type <type>", "The type of docs to fetch (fund|issue|pull|coc|license|all)", { default: "all" })
+cli
+  .command("fetch", "Fetch docs from @bjmhe")
+  .option("--type <type>", "The type of docs to fetch (fund|issue|pull|coc|license|all)", {
+    default: "all",
+  })
   .action(async (options: { type: string }) => {
-    const types = options.type === "all"
-      ? (Object.keys(docsMap) as (keyof typeof docsMap)[])
-      : [options.type as keyof typeof docsMap];
+    const types =
+      options.type === "all"
+        ? (Object.keys(docsMap) as (keyof typeof docsMap)[])
+        : [options.type as keyof typeof docsMap];
 
     for (const type of types) {
       if (!(type in docsMap)) {
-        log.error(`Unknown docs type: ${type}. Valid types: ${Object.keys(docsMap).join(", ")}, all`);
+        log.error(
+          `Unknown docs type: ${type}. Valid types: ${Object.keys(docsMap).join(", ")}, all`,
+        );
         return;
       }
     }
@@ -82,7 +92,7 @@ cli.command("fetch", "Fetch docs from @bjmhe")
       await fetchDocs(type);
     }
     log.success("Docs fetched successfully");
-  })
+  });
 
 cli.help();
 cli.version(version);
