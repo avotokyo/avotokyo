@@ -75,9 +75,13 @@ async function fetchDocs(type: keyof typeof docsMap) {
 
 cli
   .command("fetch", "Fetch docs from @bjmhe")
-  .option("--type <type>", "The type of docs to fetch (fund|issue|pull|coc|license|contribution|all)", {
-    default: "all",
-  })
+  .option(
+    "--type <type>",
+    "The type of docs to fetch (fund|issue|pull|coc|license|contribution|all)",
+    {
+      default: "all",
+    },
+  )
   .action(async (options: { type: string }) => {
     const types =
       options.type === "all"
