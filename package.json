@@ -33,6 +33,7 @@
     "./package.json": "./package.json"
   },
   "publishConfig": {
+    "repository": "https://registry.npmjs.org/",
     "access": "public"
   },
   "scripts": {
@@ -42,16 +43,16 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "@clack/prompts": "^1.5.0",
+    "@clack/prompts": "^1.5.1",
     "cac": "^7.0.0"
   },
   "devDependencies": {
-    "@arethetypeswrong/core": "^0.18.2",
-    "@bjmhe/viteplus-preset": "^2.0.1",
+    "@arethetypeswrong/core": "^0.18.3",
+    "@bjmhe/viteplus-preset": "^2.0.3",
     "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^25.6.2",
+    "@types/node": "^25.9.1",
     "@typescript/native-preview": "7.0.0-dev.20260527.2",
-    "@vitest/coverage-v8": "^4.1.7",
+    "@vitest/coverage-v8": "^4.1.8",
     "automd": "^0.4.3",
     "bumpp": "^11.1.0",
     "publint": "^0.3.21",
@@ -59,7 +60,7 @@
     "tsnapi": "^0.3.3",
     "typescript": "^6.0.3",
     "unplugin-unused": "^0.5.7",
-    "vite-plus": "^0.1.20"
+    "vite-plus": "^0.1.24"
   },
   "engines": {
     "node": ">=24.16.0"
