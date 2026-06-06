@@ -5,7 +5,7 @@ export default nodeLib(
   {
     run: {
       tasks: {
-        autofix: ["vpx automd", "vpx bjmhe fetch", "vp check --fix"],
+        autofix: ["vpx automd", "vp check --fix"],
       },
     },
     pack: {
