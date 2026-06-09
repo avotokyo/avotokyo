@@ -38,16 +38,14 @@ Last Updated on 09/06/2026 06:00:29 UTC
 
 <p align="center">
   <samp>
-    <a href="https://bjmhe.me">me</a> .
-    <a href="https://x.com/bjmhe02">twitter</a> .
-    <a href="">bluesky</a> .
-    <a href="">tiktok</a> .
-    <a href="https://www.npmjs.com/~bjmhe">npm</a> .
-    <a href="https://crates.io/users/bjmhe">crates</a> .
-    <a href="https://space.bilibili.com/3493273159075938">bilibili</a> .
-    <a href="https://juejin.cn/user/708557910842296">juejin</a> .
-    <a href="https://blog.csdn.net/m0_66681776">csdn</a> .
-    <a href="">qq</a> .
-    <a href="">wechat</a>
+    <a href="https://x.com/bjmhe02">Twitter</a> .
+    <a href="">Bluesky</a> .
+    <a href="">Linkedin</a> .
+    <a href="">Discord</a> .
+    <a href="">抖音</a> .
+    <a href="https://space.bilibili.com/3493273159075938">哔哩哔哩</a> .
+    <a href="https://juejin.cn/user/708557910842296">稀土掘金</a> .
+    <a href="https://blog.csdn.net/m0_66681776">CSDN</a> .
+    <a href="">微信</a>
   </samp>
 </p>
