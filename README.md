@@ -30,7 +30,7 @@ Last Updated on 09/06/2026 01:29:12 UTC
 
 <!--END_SECTION:waka-->
 
-#### ☎️ Contact me
+---
 
 <p align="center">
   <samp>
