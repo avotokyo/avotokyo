@@ -8,7 +8,7 @@ on:
 
 jobs:
   release:
-    uses: bjmhe/workflows/.github/workflows/release.yml@vp
+    uses: heyongqi02/workflows/.github/workflows/release.yml@vp
     with:
       publish: true
     permissions:
