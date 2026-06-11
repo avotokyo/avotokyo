@@ -1,15 +1,15 @@
 {
-  "name": "@bjmhe/bjmhe",
-  "version": "1.0.2",
-  "description": "Benjamin He's personal tools",
+  "name": "heyongqi",
+  "version": "0.0.0",
+  "description": "Yongqi He's personal tools",
   "license": "Apache-2.0",
-  "author": "Benjamin He <hi@bjmhe.me>",
+  "author": "Yongqi He <hi@heyongqi.me>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjmhe/bjmhe.git"
+    "url": "git+https://github.com/heyongqi02/heyongqi02.git"
   },
   "bin": {
-    "bjmhe": "./dist/index.mjs"
+    "heyongqi": "./dist/index.mjs"
   },
   "files": [
     "dist",
