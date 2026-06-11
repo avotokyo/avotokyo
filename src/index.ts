@@ -75,6 +75,8 @@ cli
 cli.help();
 cli.version(version);
 
-cli.parse();
+cli.parse(process.argv, { run: false });
+
+await cli.runMatchedCommand();
 
 outro("Exit...");
