@@ -32,14 +32,9 @@ Last Updated on 14/06/2026 21:00:34 UTC
 
 <p align="center">
   <samp>
-    <a href="https://x.com/heyongqi02">Twitter</a> .
-    <a href="">Bluesky</a> .
-    <a href="">Linkedin</a> .
-    <a href="">Discord</a> .
-    <a href="">抖音</a> .
-    <a href="https://space.bilibili.com/3493273159075938">哔哩哔哩</a> .
-    <a href="https://juejin.cn/user/708557910842296">稀土掘金</a> .
-    <a href="https://blog.csdn.net/m0_66681776">CSDN</a> .
-    <a href="">微信</a>
+    <a href="https://www.linkedin.com/in/heyongqi/">LinkedIn</a> ·
+    <a href="https://x.com/heyongqi02">X</a> ·
+    <a href="https://juejin.cn/user/708557910842296">掘金</a> ·
+    <a href="https://space.bilibili.com/3493273159075938">哔哩哔哩</a>
   </samp>
 </p>
