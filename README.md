@@ -6,7 +6,7 @@ I'm building web applications and open-source tools, with a focus on Rust and mo
 
 #### 🔭 Tech stack
 
-![Tech stack](https://simpleicons.dev/icons?icons=javascript,html5,css,react)
+![Tech stack](https://simpleicons.dev/icons?icons=typescript,react,vuedotjs,vite,pnpm,vitest,tauri,nestjs,cypress,lighthouse,modelcontextprotocol&theme=light)
 
 #### 📫 Connect
 
