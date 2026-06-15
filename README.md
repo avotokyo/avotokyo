@@ -30,8 +30,6 @@ Last Updated on 14/06/2026 21:00:34 UTC
 
 #### 📫 Connect
 
-Feel free to reach out about web development, Rust, or open source.
-
 <p>
   <a href="https://www.linkedin.com/in/heyongqi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32"></a>
   <a href="https://x.com/heyongqi02"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" height="32"></a>
