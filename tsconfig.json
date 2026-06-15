@@ -1,3 +1,0 @@
-{
-  "extends": "@heyongqi/tsconfig/configs/node24/library/tsconfig.json"
-}
