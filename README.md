@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Hi, I'm Yongqi He. I'm building web applications and open-source tools.
+Hi, I'm building web applications and open-source tools.
 
 #### Tech stack
 
